@@ -17,7 +17,7 @@ switch($server_status)
      include ('home.php'); //home Page
      break; 
      
-   case 1||2|3: //Mode: Else
+   case 1||2||3: //Mode: Else
      include ('maint.php'); //Maint page
      break;
      
