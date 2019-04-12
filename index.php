@@ -1,4 +1,5 @@
 <?PHP
+session_start();
 /*            AUTHOR|EMAIL: Christopher "Nam2long" Sparrowgrove | 089235.githubcontact@sparrowgrove.com
  *                 WEBSITE: https://christopher.sparrowgrove.com
  *  NAME | FILE | PROGLANG: Sparrow-WMS | INDEX | PHP & HTML 
