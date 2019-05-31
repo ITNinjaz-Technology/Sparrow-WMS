@@ -15,13 +15,17 @@ switch($server_status)
  {
    case 0: //Normal Mode
      include ('home.php'); //home Page
+     exit();
      break; 
      
    case 1||2||3: //Mode: Else
      include ('maint.php'); //Maint page
+     exit();
      break;
      
    default: //invalid or no status set
      include ('404.php'); //Error Page
+     exit();
      break; 
+}
 ?>
